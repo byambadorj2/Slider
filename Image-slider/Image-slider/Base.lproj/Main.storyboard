@@ -93,16 +93,16 @@
                                                         <constraint firstAttribute="width" constant="165" id="Hu8-rz-INc"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LYY-RV-Udg">
-                                                    <rect key="frame" x="0.0" y="210" width="108" height="28"/>
-                                                    <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Product name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LYY-RV-Udg">
+                                                    <rect key="frame" x="0.0" y="210" width="135" height="28"/>
+                                                    <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="14"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Detail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aje-yP-SMr">
-                                                    <rect key="frame" x="0.0" y="235" width="43" height="22"/>
+                                                    <rect key="frame" x="0.0" y="235" width="71" height="17"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="16"/>
+                                                    <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="10"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -179,11 +179,11 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bb5-04-ZJK">
-                                <rect key="frame" x="16" y="438" width="343" height="49"/>
+                                <rect key="frame" x="16" y="428" width="343" height="59"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Bs5-ho-roD"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="25"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -197,15 +197,27 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="7b9-n8-D33" firstAttribute="bottom" secondItem="Bb5-04-ZJK" secondAttribute="bottom" constant="180" id="6rj-kb-Ndi"/>
+                            <constraint firstItem="7b9-n8-D33" firstAttribute="bottom" secondItem="BEc-Av-aet" secondAttribute="bottom" constant="45" id="82k-06-Wv2"/>
                             <constraint firstItem="7b9-n8-D33" firstAttribute="trailing" secondItem="BEc-Av-aet" secondAttribute="trailing" constant="16" id="A4x-Nu-ERB"/>
+                            <constraint firstItem="BEc-Av-aet" firstAttribute="leading" secondItem="7b9-n8-D33" secondAttribute="leading" constant="16" id="Df9-LR-eko"/>
+                            <constraint firstItem="BEc-Av-aet" firstAttribute="top" secondItem="Bb5-04-ZJK" secondAttribute="bottom" constant="16" id="Ee1-cu-E4f"/>
                             <constraint firstItem="EPj-t6-k6s" firstAttribute="leading" secondItem="7b9-n8-D33" secondAttribute="leading" constant="16" id="Fwv-Ff-6EH"/>
                             <constraint firstItem="Bb5-04-ZJK" firstAttribute="top" secondItem="EPj-t6-k6s" secondAttribute="bottom" constant="30" id="GhJ-vf-K6X"/>
+                            <constraint firstItem="7b9-n8-D33" firstAttribute="trailing" secondItem="Bb5-04-ZJK" secondAttribute="trailing" constant="16" id="Nx7-ws-E1F"/>
                             <constraint firstItem="Bb5-04-ZJK" firstAttribute="leading" secondItem="7b9-n8-D33" secondAttribute="leading" constant="16" id="POh-cN-Igs"/>
                             <constraint firstItem="7b9-n8-D33" firstAttribute="trailing" secondItem="EPj-t6-k6s" secondAttribute="trailing" constant="16" id="SSc-pZ-nnF"/>
+                            <constraint firstItem="7b9-n8-D33" firstAttribute="bottom" secondItem="BEc-Av-aet" secondAttribute="bottom" constant="45" id="Sh6-g3-5Iy"/>
                             <constraint firstItem="BEc-Av-aet" firstAttribute="leading" secondItem="7b9-n8-D33" secondAttribute="leading" constant="16" id="VKv-1O-yaC"/>
+                            <constraint firstItem="BEc-Av-aet" firstAttribute="leading" secondItem="7b9-n8-D33" secondAttribute="leading" constant="16" id="aZS-7B-iZf"/>
+                            <constraint firstItem="7b9-n8-D33" firstAttribute="trailing" secondItem="BEc-Av-aet" secondAttribute="trailing" constant="16" id="cOo-BC-5hu"/>
+                            <constraint firstItem="Bb5-04-ZJK" firstAttribute="top" secondItem="EPj-t6-k6s" secondAttribute="bottom" constant="20" id="hDA-cx-KwU"/>
                             <constraint firstItem="7b9-n8-D33" firstAttribute="bottom" secondItem="EPj-t6-k6s" secondAttribute="bottom" constant="259" id="i9F-4B-Pah"/>
+                            <constraint firstItem="Bb5-04-ZJK" firstAttribute="leading" secondItem="7b9-n8-D33" secondAttribute="leading" constant="16" id="lPT-gR-meE"/>
+                            <constraint firstItem="7b9-n8-D33" firstAttribute="trailing" secondItem="BEc-Av-aet" secondAttribute="trailing" constant="16" id="lhX-Bs-9k9"/>
                             <constraint firstItem="7b9-n8-D33" firstAttribute="trailing" secondItem="Bb5-04-ZJK" secondAttribute="trailing" constant="16" id="oyk-Zx-hpS"/>
+                            <constraint firstItem="BEc-Av-aet" firstAttribute="top" secondItem="Bb5-04-ZJK" secondAttribute="bottom" constant="16" id="swA-BL-VfA"/>
                             <constraint firstItem="BEc-Av-aet" firstAttribute="top" secondItem="Bb5-04-ZJK" secondAttribute="bottom" constant="16" id="vBn-W5-pkY"/>
+                            <constraint firstItem="BEc-Av-aet" firstAttribute="top" secondItem="Bb5-04-ZJK" secondAttribute="bottom" constant="10" id="w2a-B9-WC8"/>
                             <constraint firstItem="7b9-n8-D33" firstAttribute="bottom" secondItem="BEc-Av-aet" secondAttribute="bottom" constant="45" id="y3i-yM-EOV"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="7b9-n8-D33"/>

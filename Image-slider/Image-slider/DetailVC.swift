@@ -19,7 +19,11 @@ class DetailVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        let url = URL(string: imageUrl)
         
+        self.productImageView.sd_setImage(with: url, placeholderImage: nil)
+        self.productNameLabel.text = imageTitle
+        self.detailLabel.text = imageDetail
     }
     
     @IBAction func closeBtnWasPressed(_ sender: Any) {
